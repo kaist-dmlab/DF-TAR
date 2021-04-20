@@ -13,7 +13,8 @@ Because traffic accidents cause huge social and economic losses, it is of prime 
   - If you are interested in the original data, there is a sample file provided [here](https://www.data.go.kr/en/data/15050068/fileData.do).
 
 ## Example Run
-Please refer to the `requirements.txt` and `Example Run.ipynb` files.
+For package installation: `pip install -r requirements.txt`
+For model testing: `Example Run.ipynb`
 
-## 4. Citation
+## Citation
 TBD
