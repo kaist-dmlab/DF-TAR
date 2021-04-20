@@ -1,5 +1,5 @@
 # DF-TAR
-# DF-TAR: A Deep Fusion Network for Citywide Traffic AccidentRisk Prediction with Dangerous Driving Behavior
+# A Deep Fusion Network for Citywide Traffic AccidentRisk Prediction with Dangerous Driving Behavior
 
 This is the implementation of the paper published in TheWebConf 2021 [[Paper](https://theweb.miteam.eu/pdf/viewer.html?file=/content/x4i94aum2QmGvaTi9_1617352293300.pdf)] [[Slide](https://docs.google.com/presentation/d/1UD-e4H6eAsabZ4UBe31kajLMJ2oYdPloXOC-072oUXU/edit?usp=sharing)] [[Video](https://www.youtube.com/watch?v=XARHYVIvYPo)]
 
