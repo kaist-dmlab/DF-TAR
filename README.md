@@ -9,7 +9,7 @@ Because traffic accidents cause huge social and economic losses, it is of prime 
 
 ## Note for Driving Record Data
 - **Digital Tachograph (Driving Log) Data**: _cannot be publicly accessible_ 
-  - For demonstration purpose, we partially provide the aggregate number of _classified_ dangerous driving cases in the `datasets` folder. 
+  - For demonstration purpose, we partially provide the aggregated number of _classified_ dangerous driving cases in the `datasets` folder. 
   - If you are interested in the original data, there is a sample file provided [here](https://www.data.go.kr/en/data/15050068/fileData.do) by Korea Transportation Safety Authority.
 
 ## Example Run
