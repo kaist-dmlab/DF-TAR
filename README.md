@@ -20,14 +20,10 @@ For model testing: `Example Run.ipynb`
 ## Citation
 ```
 @inproceedings{trirat2021dftar,
-author = {Trirat, Patara and Lee, Jae-Gil},
-title = {DF-TAR: A Deep Fusion Network for Citywide Traffic Accident Risk Prediction with Dangerous Driving Behavior},
-year = {2021},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-pages = {1146–1156},
-numpages = {11},
-location = {Ljubljana, Slovenia},
-series = {WWW '21}
+  title={DF-TAR: A Deep Fusion Network for Citywide Traffic Accident Risk Prediction with Dangerous Driving Behavior},
+  author={Trirat, Patara and Lee, Jae-Gil},
+  booktitle={Proceedings of the Web Conference 2021},
+  pages={1146--1156},
+  year={2021}
 }
 ```
