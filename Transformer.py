@@ -61,7 +61,8 @@ class MultiHeadSelfAttention(layers.Layer):
             concat_attention
         )  # (batch_size, seq_len, embed_dim)
         return output
-    
+
+# Transformer block for Temporal Attention-based Learning
 class TransformerBlock(layers.Layer):
     def __init__(self, embed_dim, num_heads, ff_dim, rate=0.1):
         super(TransformerBlock, self).__init__()
