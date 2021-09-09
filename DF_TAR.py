@@ -20,10 +20,10 @@ from Transformer import TransformerBlock
 ###########################
 def DF_TAR(n_steps, length, n_districts, n_features, conv_hidden=256, gru_hidden=256, fc_hidden=1024, batchnorm=True):
     # Input Layers
-    risk = Input(shape=[length, n_districts, n_features['risk']])
-    E_static = Input(shape=[length, n_districts, n_features['E_static']])
-    E_dynamic = Input(shape=[length, n_districts, n_features['E_dynamic']])
-    c = Input(shape=[length, n_districts, n_features['c']])
+    risk = Input(shape=[length, n_districts, n_features['risk']]) # historical risk scores
+    E_static = Input(shape=[length, n_districts, n_features['E_static']]) # static features
+    E_dynamic = Input(shape=[length, n_districts, n_features['E_dynamic']]) # dynamic or time-variant features
+    c = Input(shape=[length, n_districts, n_features['c']]) # dangerous driving cases
 
     # Convolutional Block for Static Environmental Features
     h_static = Conv2D(conv_hidden, 9, padding='same', activation='relu')(E_static)
