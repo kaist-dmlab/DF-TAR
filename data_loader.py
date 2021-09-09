@@ -6,6 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_absolute_error as mae 
 from sklearn.metrics import mean_squared_error as mse
 
+# Data Loader Function
 def data_loader(data_path, city, year, level='district', length=12, n_steps=12, is_scale=False):
     
     def normalize(train, test):
