@@ -1,6 +1,7 @@
-####################
-# Credit: keras.io #
-####################
+####################################################################
+# Multi-Head Attention and Transformer Block for Temporal Modeling #
+# Credit: keras.io                                                 #
+####################################################################
 
 import tensorflow as tf
 
